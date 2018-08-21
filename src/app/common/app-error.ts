@@ -1,3 +1,3 @@
 export class AppError{
-    constructor(originalError?: any){}
+    constructor(public originalError?: any){}
 }
