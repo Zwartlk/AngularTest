@@ -1,0 +1,27 @@
+<!-- <span class="glyphicon"
+  [class.glyphicon-star]="isFavorite"
+  [class.glyphicon-star-empty]="!isFavorite"
+  (click)= "onClick()"
+  >
+</span>
+<p (click)="onClick()">
+  {{isFavorite}}
+  course works!
+</p>
+
+  <input  [(ngModel)]="email" />
+  <input [value]="email"/> -->
+<!-- ---- in this componet
+<div class="panel panel-default">
+  <div class="panel-heading">Heading</div>
+  <div class="panel-body">Body</div>
+</div> -->
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <ng-content select=".heading"></ng-content>
+    </div>
+    <div class="panel-body">
+      <ng-content select=".body"></ng-content>
+    </div>
+  </div>
